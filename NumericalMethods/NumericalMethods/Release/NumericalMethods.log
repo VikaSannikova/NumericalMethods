@@ -1,0 +1,52 @@
+﻿  Cramer.cpp
+Cramer.cpp(8): warning C4018: '<': signed/unsigned mismatch
+  Functions.cpp
+Functions.cpp(9): warning C4018: '<': signed/unsigned mismatch
+Functions.cpp(10): warning C4018: '<': signed/unsigned mismatch
+Functions.cpp(12): warning C4018: '<': signed/unsigned mismatch
+Functions.cpp(17): warning C4018: '<': signed/unsigned mismatch
+Functions.cpp(26): warning C4018: '<': signed/unsigned mismatch
+Functions.cpp(36): warning C4018: '<': signed/unsigned mismatch
+Functions.cpp(44): warning C4018: '<': signed/unsigned mismatch
+Functions.cpp(45): warning C4018: '<': signed/unsigned mismatch
+Functions.cpp(59): warning C4018: '<': signed/unsigned mismatch
+Functions.cpp(60): warning C4018: '<': signed/unsigned mismatch
+Functions.cpp(62): warning C4018: '<': signed/unsigned mismatch
+Functions.cpp(84): warning C4018: '<': signed/unsigned mismatch
+Functions.cpp(97): warning C4018: '<': signed/unsigned mismatch
+Functions.cpp(104): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Gauss.cpp
+Gauss.cpp(8): warning C4018: '<': signed/unsigned mismatch
+Gauss.cpp(9): warning C4018: '<': signed/unsigned mismatch
+Gauss.cpp(11): warning C4018: '<': signed/unsigned mismatch
+Gauss.cpp(19): warning C4018: '<=': signed/unsigned mismatch
+  main.cpp
+  ProstIterations.cpp
+ProstIterations.cpp(13): warning C4018: '<': signed/unsigned mismatch
+ProstIterations.cpp(15): warning C4018: '<': signed/unsigned mismatch
+ProstIterations.cpp(29): warning C4018: '<': signed/unsigned mismatch
+ProstIterations.cpp(30): warning C4018: '<': signed/unsigned mismatch
+ProstIterations.cpp(38): warning C4018: '<': signed/unsigned mismatch
+ProstIterations.cpp(39): warning C4018: '<': signed/unsigned mismatch
+ProstIterations.cpp(51): warning C4018: '<': signed/unsigned mismatch
+  Relax.cpp
+Relax.cpp(12): warning C4018: '<': signed/unsigned mismatch
+Relax.cpp(14): warning C4018: '<': signed/unsigned mismatch
+Relax.cpp(28): warning C4018: '<': signed/unsigned mismatch
+Relax.cpp(30): warning C4018: '<': signed/unsigned mismatch
+Relax.cpp(42): warning C4018: '<': signed/unsigned mismatch
+Relax.cpp(46): warning C4018: '<': signed/unsigned mismatch
+Relax.cpp(61): warning C4018: '<': signed/unsigned mismatch
+  Zeidel.cpp
+Zeidel.cpp(11): warning C4018: '<': signed/unsigned mismatch
+Zeidel.cpp(13): warning C4018: '<': signed/unsigned mismatch
+Zeidel.cpp(28): warning C4018: '<': signed/unsigned mismatch
+Zeidel.cpp(30): warning C4018: '<': signed/unsigned mismatch
+Zeidel.cpp(39): warning C4018: '<': signed/unsigned mismatch
+Zeidel.cpp(43): warning C4018: '<': signed/unsigned mismatch
+Zeidel.cpp(55): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  All 299 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  NumericalMethods.vcxproj -> C:\Users\Виктория\Documents\Visual Studio 2015\Projects\NumericalMethods\NumericalMethods\Release\NumericalMethods.exe
+  NumericalMethods.vcxproj -> C:\Users\Виктория\Documents\Visual Studio 2015\Projects\NumericalMethods\NumericalMethods\Release\NumericalMethods.pdb (Full PDB)

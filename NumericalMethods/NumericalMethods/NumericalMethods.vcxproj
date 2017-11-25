@@ -110,7 +110,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cramer.cpp" />
+    <ClCompile Include="Functions.cpp" />
+    <ClCompile Include="Gauss.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ProstIterations.cpp" />
+    <ClCompile Include="Relax.cpp" />
+    <ClCompile Include="Zeidel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cramer.h" />
+    <ClInclude Include="Functions.h" />
+    <ClInclude Include="Gauss.h" />
+    <ClInclude Include="ProstIterations.h" />
+    <ClInclude Include="Relax.h" />
+    <ClInclude Include="Zeidel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
