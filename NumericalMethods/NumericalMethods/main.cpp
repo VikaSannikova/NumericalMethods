@@ -38,6 +38,7 @@ int main()
 	B = pair.second;*/
 
 	//cout << A.size();
+
 	int input;
 	cout << "How you want to input matrix? (1 - manual || 0-random generate)" << endl;
 	cin >> input;
@@ -82,10 +83,10 @@ int main()
 	//	  {0.5, -1.4, -9.6}};
 	//B = { 5.12, 5.2, 1.5};
 
-	/*A = { {6.25, -1, 0.5} ,
-		  {-1, 5, 2.12}, 
-		  {0.5, 2.12, 3.6}};
-	B = { 7.5, -8.68, -0.24};*/
+	//A = { {6.25, -1, 0.5} ,
+	//	  {-1, 5, 2.12}, 
+	//	  {0.5, 2.12, 3.6}};
+	//B = { 7.5, -8.68, -0.24};
 
 	cout << "Determinant: " << Functions::determinant(A)<<endl;
 
@@ -145,6 +146,28 @@ int main()
 
 
 	cout << "*********************************" << endl;
+
+
+	//pair = Functions::makeDiagonal(A, B);
+	//for (vector<double> a : A) {
+	//	for (double b : a) {
+	//		cout << b<<"  ";
+	//	}
+	//	for (double b : B) {
+	//		cout << b;
+	//	}
+	//	cout << endl;
+	//}
+	//cout << endl;
+	//for (vector<double> a : pair.first) {
+	//	for (double b : a) {
+	//		cout << b << "  ";
+	//	}
+	//	for (double b : pair.second) {
+	//		cout << b;
+	//	}
+	//	cout << endl;
+	//}
 
 	system("pause");
 	return 0;

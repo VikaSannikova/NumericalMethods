@@ -24,6 +24,7 @@ vector<double> ProstIteration::prostIterMethod(vector<vector<double>> A, vector<
 
 	vector<double> cur_iter(A.size());
 	vector<double> prev_iter(A.size());
+	int count = 0;
 	if (Functions::checkForDiagonal(A)) {
 		prev_iter.assign(prev_iter.size(), 0);
 		for (int i = 0; i < A.size(); i++) {
@@ -32,6 +33,7 @@ vector<double> ProstIteration::prostIterMethod(vector<vector<double>> A, vector<
 			}
 			cur_iter[i] += B[i];
 		}
+		count++;
 		while (Functions::stopIter(cur_iter, prev_iter)) {
 			prev_iter = cur_iter;
 			cur_iter.assign(A.size(), 0);
@@ -41,8 +43,9 @@ vector<double> ProstIteration::prostIterMethod(vector<vector<double>> A, vector<
 				}
 				cur_iter[i] += B[i];
 			}
-
+			count++;
 		}
+		cout << "Number of Iterations=" << count <<endl;
 		result = cur_iter;
 	}
 	else {

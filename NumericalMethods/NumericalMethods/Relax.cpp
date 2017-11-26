@@ -22,6 +22,7 @@ vector<double> Relax::upRelaxMetod(vector<vector<double>> A, vector <double> B, 
 	}
 	vector<double> cur_iter(A.size());
 	vector<double> prev_iter(A.size());
+	int count = 0;
 
 	if (Functions::checkForDiagonal(A)) {
 		prev_iter.assign(prev_iter.size(), 0);
@@ -36,6 +37,7 @@ vector<double> Relax::upRelaxMetod(vector<vector<double>> A, vector <double> B, 
 			cur_iter[i] += B[i] * relaxCoeff;
 			prev_iter.assign(prev_iter.size(), 0);
 		}
+		count++;
 		while (Functions::stopIter(cur_iter, prev_iter)) {
 			prev_iter = cur_iter;
 			cur_iter.assign(A.size(), 0);
@@ -51,8 +53,9 @@ vector<double> Relax::upRelaxMetod(vector<vector<double>> A, vector <double> B, 
 				}
 				cur_iter[i] += B[i] * relaxCoeff;
 			}
-
+			count++;
 		}
+		cout << "Number of Iterations=" << count << endl;
 		result = cur_iter;
 	}
 	else {

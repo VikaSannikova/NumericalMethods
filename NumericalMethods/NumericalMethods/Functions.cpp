@@ -39,7 +39,7 @@
 		return A;
 	}
 
-	bool Functions::checkForDiagonal(vector<vector<double>> A) { //возможна хуета
+	bool Functions::checkForDiagonal(vector<vector<double>> A) { 
 		double norm = 0;
 		for (int i = 0; i < A.size(); i++) {
 			for (int j = 0; j < A[0].size(); j++) {
